@@ -1,0 +1,206 @@
+country,alpha_2_code,alpha_3_code,numeric_code,indicator,time_period,obs_value,sex,unit_multiplier,unit_of_measure,observation_status,observation_confidentaility,time_period_activity_related_to_when_the_data_are_collected,current_age
+Afghanistan,AF,AFG,4,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Albania,AL,ALB,8,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Algeria,DZ,DZA,12,Overweight,2019,29,Total,,%,,,,10 to 19 years old
+Andorra,AD,AND,20,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Angola,AO,AGO,24,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Antigua and Barbuda,AG,ATG,28,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Argentina,AR,ARG,32,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Armenia,AM,ARM,51,Overweight,2019,18,Total,,%,,,,10 to 19 years old
+Australia,AU,AUS,36,Overweight,2019,33,Total,,%,,,,10 to 19 years old
+Austria,AT,AUT,40,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Azerbaijan,AZ,AZE,31,Overweight,2019,18,Total,,%,,,,10 to 19 years old
+Bahamas,BS,BHS,44,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Bahrain,BH,BHR,48,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Bangladesh,BD,BGD,50,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Barbados,BB,BRB,52,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Belarus,BY,BLR,112,Overweight,2019,22,Total,,%,,,,10 to 19 years old
+Belgium,BE,BEL,56,Overweight,2019,23,Total,,%,,,,10 to 19 years old
+Belize,BZ,BLZ,84,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Benin,BJ,BEN,204,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Bhutan,BT,BTN,64,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+"Bolivia, Plurinational State of",BO,BOL,68,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Bolivia,BO,BOL,68,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Bosnia and Herzegovina,BA,BIH,70,Overweight,2019,21,Total,,%,,,,10 to 19 years old
+Botswana,BW,BWA,72,Overweight,2019,16,Total,,%,,,,10 to 19 years old
+Brazil,BR,BRA,76,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Brunei Darussalam,BN,BRN,96,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Brunei,BN,BRN,96,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Bulgaria,BG,BGR,100,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Burkina Faso,BF,BFA,854,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Burundi,BI,BDI,108,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Cape Verde,CV,CPV,132,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Cambodia,KH,KHM,116,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Cameroon,CM,CMR,120,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Canada,CA,CAN,124,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Central African Republic,CF,CAF,140,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Chad,TD,TCD,148,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Chile,CL,CHL,152,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+China,CN,CHN,156,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Colombia,CO,COL,170,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Comoros,KM,COM,174,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Congo,CG,COG,178,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Cook Islands,CK,COK,184,Overweight,2019,62,Total,,%,,,,10 to 19 years old
+Costa Rica,CR,CRI,188,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Croatia,HR,HRV,191,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Cuba,CU,CUB,192,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Cyprus,CY,CYP,196,Overweight,2019,32,Total,,%,,,,10 to 19 years old
+Czech Republic,CZ,CZE,203,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Côte d'Ivoire,CI,CIV,384,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Ivory Coast,CI,CIV,384,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+"Korea, Democratic People's Republic of",KP,PRK,408,Overweight,2019,22,Total,,%,,,,10 to 19 years old
+"Congo, the Democratic Republic of the",CD,COD,180,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Denmark,DK,DNK,208,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Djibouti,DJ,DJI,262,Overweight,2019,16,Total,,%,,,,10 to 19 years old
+Dominica,DM,DMA,212,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Dominican Republic,DO,DOM,214,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Ecuador,EC,ECU,218,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Egypt,EG,EGY,818,Overweight,2019,35,Total,,%,,,,10 to 19 years old
+El Salvador,SV,SLV,222,Overweight,2019,29,Total,,%,,,,10 to 19 years old
+Equatorial Guinea,GQ,GNQ,226,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Eritrea,ER,ERI,232,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Estonia,EE,EST,233,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Swaziland,SZ,SWZ,748,Overweight,2019,16,Total,,%,,,,10 to 19 years old
+Ethiopia,ET,ETH,231,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Fiji,FJ,FJI,242,Overweight,2019,33,Total,,%,,,,10 to 19 years old
+Finland,FI,FIN,246,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+France,FR,FRA,250,Overweight,2019,29,Total,,%,,,,10 to 19 years old
+Gabon,GA,GAB,266,Overweight,2019,15,Total,,%,,,,10 to 19 years old
+Gambia,GM,GMB,270,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Georgia,GE,GEO,268,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Germany,DE,DEU,276,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Ghana,GH,GHA,288,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Greece,GR,GRC,300,Overweight,2019,35,Total,,%,,,,10 to 19 years old
+Grenada,GD,GRD,308,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Guatemala,GT,GTM,320,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Guinea,GN,GIN,324,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Guinea-Bissau,GW,GNB,624,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Guyana,GY,GUY,328,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Haiti,HT,HTI,332,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Honduras,HN,HND,340,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Hungary,HU,HUN,348,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Iceland,IS,ISL,352,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+India,IN,IND,356,Overweight,2019,6,Total,,%,,,,10 to 19 years old
+Indonesia,ID,IDN,360,Overweight,2019,14,Total,,%,,,,10 to 19 years old
+"Iran, Islamic Republic of",IR,IRN,364,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Iraq,IQ,IRQ,368,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Ireland,IE,IRL,372,Overweight,2019,29,Total,,%,,,,10 to 19 years old
+Israel,IL,ISR,376,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Italy,IT,ITA,380,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+Jamaica,JM,JAM,388,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Japan,JP,JPN,392,Overweight,2019,13,Total,,%,,,,10 to 19 years old
+Jordan,JO,JOR,400,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Kazakhstan,KZ,KAZ,398,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Kenya,KE,KEN,404,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Kiribati,KI,KIR,296,Overweight,2019,54,Total,,%,,,,10 to 19 years old
+Kuwait,KW,KWT,414,Overweight,2019,43,Total,,%,,,,10 to 19 years old
+Kyrgyzstan,KG,KGZ,417,Overweight,2019,15,Total,,%,,,,10 to 19 years old
+Lao People's Democratic Republic,LA,LAO,418,Overweight,2019,13,Total,,%,,,,10 to 19 years old
+Latvia,LV,LVA,428,Overweight,2019,20,Total,,%,,,,10 to 19 years old
+Lebanon,LB,LBN,422,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Lesotho,LS,LSO,426,Overweight,2019,15,Total,,%,,,,10 to 19 years old
+Liberia,LR,LBR,430,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Libyan Arab Jamahiriya,LY,LBY,434,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Libya,LY,LBY,434,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Lithuania,LT,LTU,440,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Luxembourg,LU,LUX,442,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Madagascar,MG,MDG,450,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Malawi,MW,MWI,454,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Malaysia,MY,MYS,458,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Maldives,MV,MDV,462,Overweight,2019,16,Total,,%,,,,10 to 19 years old
+Mali,ML,MLI,466,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Malta,MT,MLT,470,Overweight,2019,35,Total,,%,,,,10 to 19 years old
+Marshall Islands,MH,MHL,584,Overweight,2019,58,Total,,%,,,,10 to 19 years old
+Mauritania,MR,MRT,478,Overweight,2019,13,Total,,%,,,,10 to 19 years old
+Mauritius,MU,MUS,480,Overweight,2019,14,Total,,%,,,,10 to 19 years old
+Mexico,MX,MEX,484,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+"Micronesia, Federated States of",FM,FSM,583,Overweight,2019,50,Total,,%,,,,10 to 19 years old
+Monaco,MC,MCO,492,Overweight,2019,1,Total,,%,,,,10 to 19 years old
+Mongolia,MN,MNG,496,Overweight,2019,17,Total,,%,,,,10 to 19 years old
+Montenegro,ME,MNE,499,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Morocco,MA,MAR,504,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Mozambique,MZ,MOZ,508,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Myanmar,MM,MMR,104,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Burma,MM,MMR,104,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Namibia,,NAM,516,Overweight,2019,14,Total,,%,,,,10 to 19 years old
+Nauru,NR,NRU,520,Overweight,2019,64,Total,,%,,,,10 to 19 years old
+Nepal,NP,NPL,524,Overweight,2019,7,Total,,%,,,,10 to 19 years old
+Netherlands,NL,NLD,528,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+New Zealand,NZ,NZL,554,Overweight,2019,38,Total,,%,,,,10 to 19 years old
+Nicaragua,NI,NIC,558,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Niger,NE,NER,562,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Nigeria,NG,NGA,566,Overweight,2019,8,Total,,%,,,,10 to 19 years old
+Niue,NU,NIU,570,Overweight,2019,58,Total,,%,,,,10 to 19 years old
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Norway,NO,NOR,578,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Oman,OM,OMN,512,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Pakistan,PK,PAK,586,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Palau,PW,PLW,585,Overweight,2019,62,Total,,%,,,,10 to 19 years old
+Panama,PA,PAN,591,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Papua New Guinea,PG,PNG,598,Overweight,2019,31,Total,,%,,,,10 to 19 years old
+Paraguay,PY,PRY,600,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Peru,PE,PER,604,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Philippines,PH,PHL,608,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Poland,PL,POL,616,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Portugal,PT,PRT,620,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Qatar,QA,QAT,634,Overweight,2019,37,Total,,%,,,,10 to 19 years old
+"Korea, Republic of",KR,KOR,410,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+South Korea,KR,KOR,410,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+"Moldova, Republic of",MD,MDA,498,Overweight,2019,17,Total,,%,,,,10 to 19 years old
+Romania,RO,ROU,642,Overweight,2019,23,Total,,%,,,,10 to 19 years old
+Russian Federation,RU,RUS,643,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Russia,RU,RUS,643,Overweight,2019,19,Total,,%,,,,10 to 19 years old
+Rwanda,RW,RWA,646,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Saint Kitts and Nevis,KN,KNA,659,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Saint Lucia,LC,LCA,662,Overweight,2019,22,Total,,%,,,,10 to 19 years old
+Saint Vincent and the Grenadines,VC,VCT,670,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Saint Vincent & the Grenadines,VC,VCT,670,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+St. Vincent and the Grenadines,VC,VCT,670,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Samoa,WS,WSM,882,Overweight,2019,51,Total,,%,,,,10 to 19 years old
+San Marino,SM,SMR,674,Overweight,2019,1,Total,,%,,,,10 to 19 years old
+Sao Tome and Principe,ST,STP,678,Overweight,2019,13,Total,,%,,,,10 to 19 years old
+Saudi Arabia,SA,SAU,682,Overweight,2019,35,Total,,%,,,,10 to 19 years old
+Senegal,SN,SEN,686,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Serbia,RS,SRB,688,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+Seychelles,SC,SYC,690,Overweight,2019,21,Total,,%,,,,10 to 19 years old
+Sierra Leone,SL,SLE,694,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Singapore,SG,SGP,702,Overweight,2019,21,Total,,%,,,,10 to 19 years old
+Slovakia,SK,SVK,703,Overweight,2019,22,Total,,%,,,,10 to 19 years old
+Slovenia,SI,SVN,705,Overweight,2019,25,Total,,%,,,,10 to 19 years old
+Solomon Islands,SB,SLB,90,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Somalia,SO,SOM,706,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+South Africa,ZA,ZAF,710,Overweight,2019,26,Total,,%,,,,10 to 19 years old
+South Sudan,SS,SSD,728,Overweight,2019,1,Total,,%,,,,10 to 19 years old
+Spain,ES,ESP,724,Overweight,2019,32,Total,,%,,,,10 to 19 years old
+Sri Lanka,LK,LKA,144,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Sudan,SD,SDN,736,Overweight,2019,1,Total,,%,,,,10 to 19 years old
+Suriname,SR,SUR,740,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+Sweden,SE,SWE,752,Overweight,2019,23,Total,,%,,,,10 to 19 years old
+Switzerland,CH,CHE,756,Overweight,2019,21,Total,,%,,,,10 to 19 years old
+Syrian Arab Republic,SY,SYR,760,Overweight,2019,27,Total,,%,,,,10 to 19 years old
+Tajikistan,TJ,TJK,762,Overweight,2019,14,Total,,%,,,,10 to 19 years old
+Thailand,TH,THA,764,Overweight,2019,20,Total,,%,,,,10 to 19 years old
+Timor-Leste,TL,TLS,626,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+Togo,TG,TGO,768,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Tonga,TO,TON,776,Overweight,2019,57,Total,,%,,,,10 to 19 years old
+Trinidad and Tobago,TT,TTO,780,Overweight,2019,23,Total,,%,,,,10 to 19 years old
+Tunisia,TN,TUN,788,Overweight,2019,24,Total,,%,,,,10 to 19 years old
+Turkmenistan,TM,TKM,795,Overweight,2019,17,Total,,%,,,,10 to 19 years old
+Tuvalu,TV,TUV,798,Overweight,2019,57,Total,,%,,,,10 to 19 years old
+Turkey,TR,TUR,792,Overweight,2019,28,Total,,%,,,,10 to 19 years old
+Uganda,UG,UGA,800,Overweight,2019,10,Total,,%,,,,10 to 19 years old
+Ukraine,UA,UKR,804,Overweight,2019,20,Total,,%,,,,10 to 19 years old
+United Arab Emirates,AE,ARE,784,Overweight,2019,34,Total,,%,,,,10 to 19 years old
+United Kingdom,GB,GBR,826,Overweight,2019,30,Total,,%,,,,10 to 19 years old
+"Tanzania, United Republic of",TZ,TZA,834,Overweight,2019,11,Total,,%,,,,10 to 19 years old
+United States,US,USA,840,Overweight,2019,41,Total,,%,,,,10 to 19 years old
+Uruguay,UY,URY,858,Overweight,2019,32,Total,,%,,,,10 to 19 years old
+Uzbekistan,UZ,UZB,860,Overweight,2019,16,Total,,%,,,,10 to 19 years old
+Vanuatu,VU,VUT,548,Overweight,2019,29,Total,,%,,,,10 to 19 years old
+"Venezuela, Bolivarian Republic of",VE,VEN,862,Overweight,2019,33,Total,,%,,,,10 to 19 years old
+Venezuela,VE,VEN,862,Overweight,2019,33,Total,,%,,,,10 to 19 years old
+Viet Nam,VN,VNM,704,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Vietnam,VN,VNM,704,Overweight,2019,9,Total,,%,,,,10 to 19 years old
+Yemen,YE,YEM,887,Overweight,2019,18,Total,,%,,,,10 to 19 years old
+Zambia,ZM,ZMB,894,Overweight,2019,12,Total,,%,,,,10 to 19 years old
+Zimbabwe,ZW,ZWE,716,Overweight,2019,14,Total,,%,,,,10 to 19 years old

@@ -1,0 +1,222 @@
+---
+title: "**Empowering Change: Shaping the Health Landscape for Young Minds**"
+subtitle: "**Global Trends** and **Insights** from **2019**"
+author: "Eddie Moran"
+date: "2024-04-08"
+output:
+  html_document:
+    theme: united
+    toc: true
+    toc_float: true
+    highlight: tango
+    css: styles.css
+
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(ggplot2)
+library(ggthemes)
+library(gridExtra)
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(readr)
+
+# Set a global theme for all ggplot2 plots
+theme_set(theme_minimal(base_family = "Times New Roman") +
+          theme(
+            text = element_text(color = "#f0f0f0"),
+            plot.background = element_rect(fill = "#4d4d4d", color = NA),
+            panel.background = element_rect(fill = "#4d4d4d", color = NA),
+            plot.title = element_text(face = "bold", hjust = 0.5, size = 14),
+            axis.title = element_text(face = "bold"),
+            legend.background = element_rect(fill = "#4d4d4d"),
+            legend.title = element_text(face = "bold")
+          ))
+
+# Include other packages as necessary
+library(viridis)  # For color scales
+
+#importing of files
+unicef_indicator_1_1 <- read_csv("unicef_indicator_1 (1).csv")
+unicef_metadata_1_ <- read_csv("unicef_metadata (1).csv")
+
+#Data join
+data_join <- full_join(unicef_metadata_1_, unicef_indicator_1_1, by =c("country" = "country"))
+
+data_join <- unicef_metadata_1_ %>%
+  full_join(unicef_indicator_1_1, by = c("country", "year" = "time_period"))
+```
+
+## Introduction
+![](https://3f6b9a15b88a45d9be0bcbc789719f34.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FUNICEF.png)
+
+As a **Data Analyst for UNICEF**, I am tasked with elucidating global challenges through the analytical lens of data. This report addresses a **critical and escalating issue**: the increasing percentage of overweight among adolescents aged **10-19**. 
+
+### Objectives
+
+- **Highlight the Magnitude**: We aim to bring to light the severe magnitude of this health crisis.
+- **Engage the Community**: Encourage an open dialogue within the global community towards finding actionable solutions.
+- **Unravel Multifaceted Drivers**: Conduct a comprehensive analysis of data to understand the complex factors driving this trend.
+- **Advocate for Effective Strategies**: Promote strategies that will safeguard the well-being of our youth, ensuring a healthier future trajectory.
+
+### Call to Action
+
+This document is not merely informational but serves as an **urgent call to action**. We invite stakeholders from all levels to engage actively in the vital mission of reversing this concerning trend. Together, we can forge a path towards a healthier future for the next generation.
+
+## General Health Landscape
+```{r}
+#| fig-cap: This map illustrates the varying percentages of overweight individuals within the age group across countries and territories around the world. Shaded from gold to red, the colors represent a gradient where gold signifies lower percentages and red indicates higher percentages of overweight adolescents, providing a visual insight into the global health landscape.
+
+library(maps)
+
+map_world <- map_data("world")
+
+map_data_join <- full_join(unicef_indicator_1_1, map_world, by = c("country" = "region"))
+
+map_data_join$obs_value <- as.numeric(as.character(map_data_join$obs_value))
+
+
+ggplot(map_data_join) + 
+  aes(x = long, y = lat, group = group) + 
+  geom_polygon(aes(fill = obs_value)) + 
+  geom_polygon(color = "black", fill = NA, size = 0.25) + 
+  scale_fill_gradient(low = "gold", high = "red", na.value = "white", name = "% Overweight") +
+  labs(x = "Longitude", y = "Latitude", title = "Proportion of 10-19 year olds that are overweight") + 
+  theme_void() +
+    theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", family = "Arial", size = 16),
+    axis.text.x = element_blank(),   # Remove x-axis labels
+    axis.ticks.x = element_blank(),  # Remove x-axis ticks
+    axis.title.x = element_blank(),  # Remove x-axis title
+    axis.text.y = element_text(angle = 45, hjust = 1, face = "bold"),
+    axis.title.y = element_blank()
+  )
+
+```
+## Time Series Analysis
+```{r}
+#| fig-cap:  Time series plot visualizing the life expectancy at birth over time for five specific countries of interest; Brazil, China, Nigeria, France, and Australia.The inclusion of both developed and developing countries allows for a nuanced discussion on global health disparities, progress in medical and social welfare, and the factors that contribute to longer life expectancies.
+
+countries_of_interest <- c("Brazil", "China", "Nigeria", "France", "Australia")
+life_expectancy_data <- unicef_metadata_1_ %>%
+  filter(country %in% countries_of_interest,
+         !is.na(`Life expectancy at birth, total (years)`)) %>%
+  select(country, year, `Life expectancy at birth, total (years)`)
+
+# Creating the time series plot
+ggplot(life_expectancy_data, aes(x = year, y = `Life expectancy at birth, total (years)`, color = country)) +
+  geom_line() +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Life Expectancy at Birth Over Time",
+       x = "Year",
+       y = "Life Expectancy (years)",
+       color = "Country") +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", family = "Arial", size = 16),
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),
+    axis.title.x = element_blank(),  # Removing x-axis title
+    panel.grid.major = element_blank(),  # Removing major grid lines
+    panel.grid.minor = element_blank(),  # Removing minor grid lines
+    axis.ticks = element_blank()  # Optional: remove axis ticks if desired
+  )
+
+```
+## Economic Analysis
+### GDP & Life Expectancy Visualisation
+```{r}
+#| fig-cap: This code generates two interactive scatter plots for the year 2019, each exploring significant health and socioeconomic indicators across various countries. The first plot examines the relationship between average life expectancy and overweight rates, highlighting how health outcomes might correlate with obesity levels in different nations. The second plot explores the connection between a country's average GDP per capita and the average overweight value, suggesting that a nation's wealth could influence the health characteristics of its citizens, potentially affected by lifestyle, access to healthcare, and dietary habits. Both plots include a linear regression line to delineate the general trends and direct relationships, while their interactive nature allows for an in-depth exploration of the data on a country-by-country basis, providing valuable insights into how economic and health-related factors interconnect globally.
+
+
+library(gridExtra)
+
+# Create the plots
+plot1 <- ggplot(data_join %>% filter(year == 2019) %>%
+  group_by(country) %>%
+  summarise(Avg_GDP_per_capita = mean(`GDP per capita (constant 2015 US$)`, na.rm = TRUE),
+            Obs_value_avg = mean(obs_value, na.rm = TRUE)), 
+  aes(x = Obs_value_avg, y = Avg_GDP_per_capita, color = country)) +
+  geom_point(size = 2.5, alpha = 0.8) + 
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "blue", linetype = "solid") +
+  scale_color_viridis_d() + 
+  theme_tufte() + 
+  labs(y = "Average GDP per capita", x = "Overweight Value", title = "") +
+     theme(plot.title = element_text(hjust = 0.5),
+        axis.title.x = element_text(family = "Arial", size = 12),
+        axis.title.y = element_text(family = "Arial", size = 12),
+        text = element_text(size = 12),
+        legend.position = "none")
+
+plot2 <- ggplot(data_join %>% filter(year == 2019) %>%
+  group_by(country) %>%
+  summarise(Avg_Life_Expectancy = mean(`Life expectancy at birth, total (years)`, na.rm = TRUE),
+            Obs_value_avg = mean(obs_value, na.rm = TRUE)),
+  aes(x = Obs_value_avg, y = Avg_Life_Expectancy, color = country)) +
+  geom_point(size = 2.5, alpha = 0.8) + 
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "blue", linetype = "solid") +
+  scale_color_viridis_d() + 
+  theme_tufte() + 
+  labs(y = "Average Life Expectancy", x = "Overweight Value", title = "") +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.title.x = element_text(family = "Arial", size = 12),
+        axis.title.y = element_text(family = "Arial", size = 12),
+        text = element_text(size = 12),
+        legend.position = "none")
+
+
+# Arrange them side by side
+grid.arrange(plot1, plot2, ncol = 2)
+```
+
+
+## Bar Chart
+```{r}
+#| fig-cap: This code creates an interactive bar chart showing the average observed overweight percentage for five selected countries (Brazil, China, Nigeria, France, Australia) for the year 2019. Each country's data is represented by a bar, colored uniquely according to a custom palette, with countries ordered by their average overweight value. The visualization aims to compare overweight rates across these nations, highlighting differences in this health indicator within a specific year.
+
+colors <- c("Australia" = "#FFD700", # Gold
+            "Brazil" = "#FFB14E", # A shade between gold and red
+            "France" = "#FF8C00", # Darker shade towards red
+            "China" = "#FF4500", # Red-Orange
+            "Nigeria" = "#FF0000") # Red
+
+# Assuming 'data_join' is pre-filtered and summarized as needed
+vis_4 <- data_join %>%
+  filter(year == 2019, country %in% c("Brazil", "China", "Nigeria", "France", "Australia")) %>%
+  group_by(country) %>%
+  summarise(Avg_obs_value = mean(obs_value, na.rm = TRUE)) %>%
+  ggplot(aes(x = reorder(country, -Avg_obs_value), y = Avg_obs_value, fill = country)) +
+  geom_bar(stat = "identity", show.legend = FALSE, width = 0.7) +
+  scale_fill_manual(values = colors) + # Use the custom color palette
+  theme_minimal() +
+  labs(y = "Overweight value", x = "Country", title = "% Overweight by Country for 2019") +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", family = "Arial", size = 16),
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),
+    axis.title.x = element_blank(),
+    panel.grid.major = element_blank(),  # Removing major grid lines
+    panel.grid.minor = element_blank(),  # Removing minor grid lines
+    panel.background = element_rect(fill = "white", color = "white")  # Optional: set background
+  )
+
+# Convert to ggplotly
+ggplotly(vis_4)
+
+```
+## Conclusion
+Throughout this report, **several critical dimensions of global health have been explored**, with a particular focus on the challenges posed by the **increasing overweight rates among adolescents**. Key insights from our visualizations include:
+
+- **Highlighting Disparities**: Our data visualizations reveal significant disparities in health outcomes across different regions and demographics.
+- **Economic Correlations**: The analysis suggests potential correlations between health metrics like overweight rates and economic factors, such as GDP per capita.
+
+As we look to the future, **collaborative engagement** across various sectors is essential. Key actions include:
+
+- **Leveraging Data-Driven Insights**: Utilizing the insights provided by our comprehensive data analysis to inform public health policies and interventions.
+- **Implementing Effective Interventions**: Developing and deploying strategies that can effectively address the health challenges identified.
+
+This report is intended as a **starting point for deeper analysis and action**, aimed at fostering a healthier future for the next generation. We invite stakeholders from all levels to partake in this vital mission to **reverse concerning health trends** and **enhance the well-being of our youth**.
